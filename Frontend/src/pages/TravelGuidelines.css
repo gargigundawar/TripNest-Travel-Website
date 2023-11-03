@@ -1,0 +1,86 @@
+/* Header */
+/* Styling for the header section */
+
+/* Travel Guidelines Page Styling */
+.travel-guidelines {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .guideline-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guideline-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .guideline-text {
+    flex: 1;
+  }
+  
+  .guideline-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .guideline-intro {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .guideline-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .guideline-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add more styles based on your design */
+
+
+  /* ... (previous styles) ... */
+
+.guideline-points {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.guideline-point {
+  flex-basis: calc(33.33% - 20px); /* 3 points in one row */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+}
+
+.guideline-point-icon {
+  margin-right: 10px;
+  color: #3399cc; /* Icon color */
+}
+
+.guideline-point-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Title color */
+}
+
+.guideline-point-content {
+  font-size: 16px;
+  color: #666; /* Content color */
+}
+
+/* Add more styles based on your design */
